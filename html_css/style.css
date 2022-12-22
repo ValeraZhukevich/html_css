@@ -23,18 +23,26 @@ div {
   }
   td{
       text-align: center;
+      vertical-align: top;
       width: auto;
       height: auto;
   }
 
   .td_vertical{
-      writing-mode: vertical-rl;
-      transform: scale(-1);
+      width: auto;
+      vertical-align: top;
+      writing-mode: vertical-lr;
+      text-orientation: upright;
+
   }
 
 
-.left{
+  .left{
         text-align: left;
         margin-left: 15px;
         margin-right: auto;
+   }
+
+  .link:hover {
+        color: #d11717;
   }
